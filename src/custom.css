@@ -8,6 +8,11 @@
 
 #nav-link-col {
   width: 97vw;
+  z-index: 3;
+}
+
+#custom-brand-col {
+  z-index: 5
 }
 
 /* #custom-nav-hamburger {

@@ -5,7 +5,7 @@ const CustomNav = () => {
       <Navbar expand="md" bg="dark" data-bs-theme="dark">
       <Container id="custom-nav-container">
         <Row>
-          <Col xs className="text-center">
+          <Col xs className="text-center" id="custom-brand-col">
             <Navbar.Brand id='custom-nav-brand' href="#home">React-Bootstrap</Navbar.Brand>
           </Col>
           <Col xs id="nav-link-col" className="text-end">
