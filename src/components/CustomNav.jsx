@@ -6,7 +6,7 @@ const CustomNav = () => {
       <Container id="custom-nav-container">
         <Row>
           <Col xs className="text-center" id="custom-brand-col">
-            <Navbar.Brand id='custom-nav-brand' href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand id='custom-nav-brand' className="mx-auto" href="#home">React-Bootstrap</Navbar.Brand>
           </Col>
           <Col xs id="nav-link-col" className="text-end">
             <Navbar.Toggle aria-controls="basic-navbar-nav" id="custom-nav-hamburger" />
